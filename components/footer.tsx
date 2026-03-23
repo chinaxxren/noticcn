@@ -72,6 +72,14 @@ export function Footer() {
               © 2026 万言信息科技（济宁）有限公司 版权所有
             </p>
             <div className="flex items-center gap-6">
+              <a
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors"
+              >
+                鲁ICP备2026012479号
+              </a>
               <Link
                 href="mailto:contact@wanyan-tech.com"
                 className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors"
